@@ -1,7 +1,7 @@
 {
     "name": "Codespace with MongoDB",
     "build": {
-        "dockerfile": "../dokcer/Dockerfile"
+        "dockerfile": "../docker/Dockerfile"
     },
     "forwardPorts": [27017],
     "postCreateCommand": "docker-compose up -d"
